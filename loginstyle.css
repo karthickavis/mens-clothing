@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#cart{
+display: flex;
+/* border: 1px solid;  */
+}
+#cart>i{
+margin-top: 16px;
+
+}
+nav li a:hover{
+border-bottom: 2px solid rgb(155, 155, 238);
+transition: .1s;
+}
+nav li{
+padding: .2rem;
+border: 2px solid transparent;
+}
+nav{
+width: 100%;
+}
+
+header{
+ position: sticky;
+top: 0;
+z-index: 1;
+background-color: white;
+
+}
+/* navbar */
+
+.img img{
+    height: 472px;
+    width: 100%;
+}
+ form button{
+    width: 100%;
+}
+.form-group input:focus{
+    outline:0;
+}
+.form-group .error{
+    color: red;
+}
+.form-group.success input{
+    border-color: #0cc477;
+}
+.form-group.error input{
+    border-color: rgb(206,67,67);
+}
+
+

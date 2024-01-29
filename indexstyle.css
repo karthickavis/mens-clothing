@@ -1,0 +1,160 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    /* navbar start */
+#cart{
+    display: flex;
+    /* border: 1px solid;  */
+}
+#cart>i{
+margin-top: 16px;
+
+}
+nav li a:hover{
+    border-bottom: 2px solid rgb(155, 155, 238);
+    transition: .1s;
+}
+nav li{
+    padding: .2rem;
+    border: 2px solid transparent;
+}
+nav{
+    width: 100%;
+}
+
+header{
+     position: sticky;
+   top: 0;
+   z-index: 1;
+   background-color: white;
+   
+}
+/* navbar */
+
+
+/* section  start*/
+section{
+    /* border: 1px solid; */
+    padding: .2rem;
+    /* min-height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.welcome{
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+.img{
+    height: 550px;
+   
+    
+}
+/* slider start */
+.slidercontainer{
+    position: relative;
+    overflow-x: hidden;
+    height: 400px;
+    /* border: 3px solid red; */
+    
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  
+    width: 1100px;
+
+}
+.outerslider{
+width: 100%;
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.sliderimage{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* left: 0;
+    top: 0; */
+    /* border: 1px solid; */
+    transition: .2s linear;
+    gap: 26px;
+    padding: 2rem;
+   
+   
+   
+}
+.item{
+    height: 300px;
+    min-width: 280px;
+    width: 300px;
+    border: 1px solid;
+}
+
+
+#parent{
+    
+        flex-wrap: nowrap;
+        /* overflow: scroll; */
+        overflow: hidden;
+
+}
+#parent img{
+    height: 250px;
+    width: 300px;
+}
+.btns{
+    text-align: center;
+    padding: 1rem;
+}
+.next{
+    margin-left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+/* slider end */
+/* footer start */
+footer{
+    background-color: #232323;
+    color: #808080;
+}
+footer span i{
+padding:  0 .4rem;
+font-size: 1.5rem;
+}
+
+footer h2,
+footer h3,
+footer h4,
+footer h5{
+    color: white;
+    padding: .4rem 0;
+}
+
+/* footer end */
+
+
+/* section end */
+ 

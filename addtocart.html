@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart</title>
+    <link rel="stylesheet" href="addtocard.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header><!--header start-->
+        <nav class="navbar navbar-expand-lg navbar-light"><!---nav start-->
+           <div class="container-fluid col-12 ps-2 col-sm-10">
+     <h2 class="navbar-brand text-primary  fs-3">K Men's Clothing</h2>
+                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                       <!-- <span class="navbar-toggler-icon"></span> -->
+                       <i class="fa-solid fa-bars"></i>
+                   </button>
+                 <div class=" collapse navbar-collapse " id="mynavbar">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item active">
+                       <a href="index.html" class="nav-link text-primary fs-5">Home</a>
+                      </li>
+                      <li class="nav-item">
+                       <a href="about.html" class="nav-link text-primary  fs-5">About</a>
+                      </li>
+                      <li class="nav-item">
+                       <a href="addtocart.html" class="nav-link  text-primary fs-5">Men's</a>
+                      </li>
+                      <li class="nav-item">
+                       <a href="review.html" class="nav-link  text-primary fs-5">Reviews</a>
+                      </li>
+                      <li class="nav-item">
+                       <a href="login.html" class="nav-link text-primary  fs-5">Login</a>
+                      </li>
+                      <li class="nav-item">
+                       <div id="cart">
+                         <i class="fa-solid fa-cart-shopping text-primary cart-icon"></i>
+                         <span id="count" class="text-danger">0</span>
+                         <!-- <a href="" class="nav-link text-primary fs-5">Cart</a> -->
+                       </div>
+       
+                      </li>
+                  </ul>
+                 </div>
+               </div>
+               <div class="side-cart"><!--slide-cart start-->
+                <div class="card-title">
+                    <h4>Cart-Item</h4>
+                </div>
+    <div class="cart-content"><!--cart-content start-->
+<!--      
+        <div class="cart-box">
+            
+            <img src="image1.jpg" class="cart-img">
+            <div class="detail-box">
+                <div class="cart-clothtitle">
+                    jeans
+                </div>
+                <div class="pricebox">
+                    <div class="cart-price">Rs.100</div>
+                    <div class="cart-amount">&Rs.100</div>
+                </div>
+                <input type="number" value="1" class="cart-quantity" name="cartquantity">
+            </div>
+           
+            <i class="fa-solid fa-trash move"></i>
+        </div>
+
+        <div class="cart-box">
+            
+            <img src="image1.jpg" class="cart-img">
+            <div class="detail-box">
+                <div class="cart-clothtitle">
+                    jeans
+                </div>
+                <div class="pricebox">
+                    <div class="cart-price">Rs.100</div>
+                    <div class="cart-amount">Rs.100</div>
+                </div>
+                <input type="number" value="1" class="cart-quantity" name="card-quantity">
+            </div>
+          
+            <i class="fa-solid fa-trash move"></i>
+        </div> -->
+        
+                </div><!--cart-content end-->
+                <div class="total">
+                    <div class="total-title">total :</div>
+                    <div class="total-price">Rs.0</div>
+                </div>
+                <button class="btn btn-primary">Place Order</button>
+                <img src="close.png" class="close-img">
+
+               </div><!--slide-cart end-->
+               </nav><!--nav end-->
+              </header><!--header end-->
+              <div class="container p-3 text-center">
+                <h2>DISCOVER THE BEST CLOTHES</h2>
+
+              </div>
+
+              <!----card start-->
+
+
+
+   <div class="card-container"><!--card-container start--->
+
+     <div class="card">
+        <div class="img">
+            <img src="image1.jpg" class="img1">
+        </div>
+        <div class="title">
+            <h4>Baggy-Jeans</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.1000</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+
+     <div class="card">
+        <div class="img">
+            <img src="image2.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Half-Tees</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.700</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+     <div class="card">
+        <div class="img">
+            <img src="images3.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Full-Tees</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.900</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+
+     <div class="card">
+        <div class="img">
+            <img src="images4.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Designer Shirt</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.1200</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+
+
+
+     <div class="card">
+        <div class="img">
+            <img src="images5.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Full-Tees</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.600</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+
+
+     <div class="card">
+        <div class="img">
+            <img src="https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2Fcd%2F7b%2Fcd7b894fba8c32078439f442e205ef9d719e8fb0.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BDESCRIPTIVESTILLLIFE%5D%2Cres%5Bm%5D%2Chmver%5B2%5D&call=url[file:/product/main]" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Relaxed-Jeans</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.1100</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+
+     <div class="card">
+        <div class="img">
+            <img src="https://oldnavy.gap.com/webcontent/0027/393/728/cn27393728.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Relaxed-Jeans</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.1100</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+
+
+
+    
+     <div class="card">
+        <div class="img">
+            <img src="http://www.repertoirefashion.co.uk/blog/wp-content/uploads/2016/03/HM-Mens-Skinny-Denim-Jeans-Harvey-Haydon-Shoot-002.jpg" class="img1">
+        </div>
+        <div  class="title"> 
+            <h4>white Tees</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.600</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+
+     <div class="card">
+        <div class="img">
+            <img src="https://3.bp.blogspot.com/-YEiJy79BzDg/VYJGDCeZS_I/AAAAAAAAEnA/l5LT6JNtxMo/s1600/Men-New-Skinny-Jeans-in-2015-4.jpeg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Black-Jeans</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.1000</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+
+     <div class="card">
+        <div class="img">
+            <img src="https://i5.walmartimages.com/asr/44ee0c26-f7d4-43dd-95a8-e18c159af4a6.21b41a302d1bea34782065934511a45a.jpeg" class="img1">
+        </div> 
+        <div  class="title">
+            <h4>Full-Tees</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.700</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+
+
+     <div class="card">
+        <div class="img">
+            <img src="https://handcmediastorage.blob.core.windows.net/productimages/SS/SSPMA320-K82-134526-1400px-1820px.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Formal-Shirt</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.850</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+
+
+
+     <div class="card">
+        <div class="img">
+            <img src="https://i.pinimg.com/originals/af/03/19/af0319641b80cfa0c84771bc48bc8ea3.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Oversize-Tees</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.900</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+
+
+
+
+     <div class="card">
+        <div class="img">
+            <img src="https://images.sportsdirect.com/images/imgzoom/59/59954703_xxl.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Black-Tees</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.600</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+   
+
+     <div class="card">
+        <div class="img">
+            <img src="https://oldnavy.gap.com/webcontent/0014/646/699/cn14646699.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Black-Hoodies</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.1200</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+      
+
+     <div class="card">
+        <div class="img">
+            <img src="https://www1.assets-gap.com/webcontent/0014/469/734/cn14469734.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Plain-Hoodies</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.900</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+   
+
+     <div class="card">
+        <div class="img">
+            <img src="https://modone.com/eng_pl_Mens-zip-up-hoodie-AMIGO-dark-grey-red-218_5.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>Hoodies</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.1000</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+   
+     
+
+     <div class="card">
+        <div class="img">
+            <img src="https://images.bewakoof.com/original/men-s-black-all-over-printed-co-ord-set-505359-1656154801-1.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>co-ords</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.800</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+   
+
+     <div class="card">
+        <div class="img">
+            <img src="https://images.summitmedia-digital.com/esquiremagph/images/2019/09/02/ezgif.com-webp-to-jpg%20(1).jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>co-ords</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.1200</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+   
+
+
+     <div class="card">
+        <div class="img">
+            <img src="https://i.pinimg.com/originals/3d/72/b0/3d72b022ead18e8411c0edd68dff429b.png" class="img1">
+        </div>
+        <div  class="title">
+            <h4>designer co-ords</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.1500</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+   
+
+
+     <div class="card">
+        <div class="img">
+            <img src="https://images.bewakoof.com/utter/content/4549/content_mens-two-piece-outfits-bewakoof-blog-8.jpg" class="img1">
+        </div>
+        <div  class="title">
+            <h4>co-ords</h4>
+        </div>
+        <div class="price">
+            <span class="item-price">Rs.1300</span>
+            <button class="btn btn-primary">Add To Cart</button>
+        </div>
+     </div>
+   
+   </div><!--card-container end-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              <!---card end-->
+
+    
+
+
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+              <script src="addtocard.js">
+
+              </script>
+</body>
+</html>
